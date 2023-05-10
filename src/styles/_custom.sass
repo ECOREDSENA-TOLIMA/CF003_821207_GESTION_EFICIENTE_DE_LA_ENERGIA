@@ -2,18 +2,169 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 6%
+    right: 48%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 21%
+    right: 14%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(15px)
   100%
     transform: translateY(0px)
+
+.tema1
+  .linea-tiempo-d__item--selected
+    .tarjeta--gris
+      background-color: #e1eefe !important
+
+  .tabs-a__tab
+    background-color: #e8e8e8
+  
+  .bloque1
+    .bloque-texto-g__img
+      width: 35%
+      @media (max-width: 992px)
+        width: 100% !important
+        height: 68%
+      @media (max-width: 767px)
+          width: 100% !important
+          height: 65%
+      @media (max-width: 350px)
+          width: 100% !important
+          height: 50%
+
+    .bloque-texto-g__texto
+      width: 50%
+      @media (max-width: 992px)
+          width: 100% !important
+  .bloque2
+    .bloque-texto-g 
+      position: relative
+      display: flex
+      justify-content: flex-start
+
+    .bloque-texto-g__img
+      right: 0% !important
+      left: inherit
+      width: 50%
+      @media (max-width: 992px)
+        width: 100% !important
+        height: 68%
+      @media (max-width: 767px)
+          width: 100% !important
+          height: 65%
+      @media (max-width: 350px)
+          width: 100% !important
+          height: 50%
+
+    .bloque-texto-g__texto
+      width: 70%
+      @media (max-width: 992px)
+          width: 100% !important
+.tema1
+  .tabs-c__tab span
+    font-weight: 700
+.tema1
+  .tabs-c__tab:not(.tabs-c__tab--active)
+    background-color: #E4EEF8
+.tabs-c__content-item
+  padding-left: 12px!important
+  padding-right: 12px!important
+.tabs-c__header
+  margin-bottom: 0!important
+.tema1
+  .tabs-c__tab:after
+    width: 0px !important
+.tema1
+  .tabs-c
+    border-bottom: none !important
+.tema1
+  .tarjeta--azul-custom
+    background-color: #E5FDFD
+.bloque-tema1
+  .bloque-texto-g__texto
+      background-color: #23476b
+
+.bloque-texto-tema1 
+  position: relative
+  background-color: rgba(255, 255, 255, 0.95)
+  width: 120%
+  left: -22%
+  padding: 19px
+  @media (max-width: 992px)
+    width: 100%
+    left: 0%
+    padding: 19px
+  
+  .lista-ul
+    margin-bottom: 0px
+    li
+      margin-bottom: 0px
+      font-weight: 400
+
+.acordion
+  background-color: $white!important
+  background: $white!important
+  .tarjeta:not(.acordion__activo)
+    background-color: #E4EEF8!important
+  .tarjeta.acordion__activo
+    background-color: #CDFCFC!important
+.color-head-table
+  tr
+    th
+      background-color: $color-primario
+      color: $white
+
+.bg--gradientBlue 
+  background: linear-gradient(0deg,#d7ecfc,#eff6fc)
+.tema1
+  .tabla-b table
+    min-width: 400px
+  .border-b
+    position: relative
+    height: 10px
+    width: 34px
+    background-color: $color-primario
+  .border-c
+    position: relative
+    height: 10px
+    width: 34px
+    background-color: $color-acento-contenido
+  .bg-div
+    background-color: #E4EEF8
+  .bg-div2
+    background-color: #ECE5F9
+  .bloque2-tema1
+    background-image: url('../assets/curso/temas/tema1-14.svg')
+    background-size: 53%
+    background-repeat: no-repeat
+    background-color: #E4EEF8
+    background-position: 20%
+  .bloque-texto-g__texto.bloque-texto2-tema1
+    width: 65%
+.tema2
+  .animacion1
+    background: linear-gradient(#ECE5F9, 50%, $white)
+  .tarjeta2
+    background-color: #ECE5F9
+
+  .tabs-c__tab:not(.tabs-c__tab--active)
+    background-color: #E4EEF8
+  .tarjeta--azul-custom
+    background-color: #E5FDFD
+  .tabs-c
+    border-bottom: none !important
+.tema3
+  .animacion1
+    background: rgb(255,255,255)
+    background: linear-gradient(90deg, $white 5%, rgba(236,229,249,1) 100%)
+  .border-c
+    position: relative
+    height: 10px
+    width: 34px
+    background-color: $color-acento-contenido

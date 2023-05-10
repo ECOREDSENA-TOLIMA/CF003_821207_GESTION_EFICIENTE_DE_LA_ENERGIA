@@ -1,7 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Determinación de especificaciones según requerimientos del producto electrónico',
+    descripcionCurso:
+      'Este componente se relaciona con la medición que hace parte de las actividades de la vida, en especial hoy donde es normal vestir dispositivos electrónicos que miden las pulsaciones y la distancia recorrida. También se hace imprescindible para controlar los procesos y obtener datos para la toma de decisiones; medir parámetros eléctricos permitirá adentrarse en el mundo de la medición. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +33,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Instrumentos de medida',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Exactitud y precisión',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Clase de precisión, burden y error',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Calibración de instrumentos',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +57,26 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tipos de instrumentos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Medida de potencia trifásica',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Instrumentos trifásicos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Diagramas de conexión',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -62,12 +86,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -97,32 +121,65 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.3 Calibración de instrumentos.',
+      referencia:
+        'Técnicas de control metrológico S.L. (2021). <em>Certificado de calibración</em>',
+      tipo: 'Página web',
+      link:
+        'https://www.tcmetrologia.com/blog/interpretacion-y-modelo-de-certificado-de-calibracion/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.3 Calibración de instrumentos.',
+      referencia:
+        'Organismo Nacional de Acreditación de Colombia - ONAC. (2021). <em>Acreditación laboratorio de calibración y mediciones industriales</em> SENA.',
+      tipo:
+        'Acreditación laboratorio de Calibración y Mediciones Industriales SENA',
+      descarga: 'https://onac.org.co/certificados/16-LAC-016.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Burden</em>',
+      significado:
+        'Carga impuesta a un instrumento de medida eléctrico o electrónico en la entrada del circuito a medir, su unidad de medida es el voltio-amperio (VA).',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'CT',
+      significado:
+        'Transformador de corriente (siglas en inglés de <em>Current Transformer</em>)',
+    },
+    {
+      termino: 'ONAC',
+      significado: 'Organismo Nacional de Acreditación de Colombia.',
+    },
+    {
+      termino: 'PT',
+      significado:
+        'Transformador de potencial (siglas en inglés de <em>Potential Transformer</em>).',
+    },
+    {
+      termino: '<em>True RMS</em>',
+      significado: 'Valor eficaz verdadero de las ondas en corriente alterna.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Organismo Nacional de Acreditación de Colombia - ONAC. (2021). <em>Acreditación laboratorio de calibración y mediciones industriales</em> SENA.',
+      link: 'https://onac.org.co/certificados/16-LAC-016.pdf',
+    },
+    {
+      referencia:
+        'Purkait, P., Biswas, B., Das, S., y Koley, C. (2013). <em>Electrical and Electronics Measurements and Instrumentation.</em> McGraw Hill Education (India).',
+    },
+    {
+      referencia:
+        'Técnicas de control metrológico. (2021). <em>Certificado de calibración.</em>',
+      link: 'https://onac.org.co/certificados/16-LAC-016.pdf',
+    },
+    {
+      referencia:
+        'Villalobos, O., G. (2006). <em>Medición y control de procesos industriales.</em> Instituto Politécnico Nacional.',
     },
   ],
   creditos: [
