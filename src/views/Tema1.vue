@@ -33,7 +33,7 @@
       p.mb-lg-0.mb-5 Los tres principios generales de funcionamiento son los siguientes: 
 
     TabsC.color-acento-botones.mb-4(data-aos="fade-right")
-      .py-3.pt-0(titulo="Transformadores de corriente (CT)")
+      .py-3.pt-0(titulo="Principio electromagnético")
         .row.justify-content-between.align-items-center.tarjeta--azul-custom.mb-0.p-4.py-5
           .col-lg-6.col-10
             .titulo-sexto.color-acento-contenido
@@ -48,7 +48,7 @@
           .col-lg-6.col-10
             img(src='@/assets/curso/temas/tema1-04.svg') 
           .col-lg-6.col-12
-            p.mb-lg-0.mb-3 Utiliza los efectos de calentamiento sobre un material. El más común de los instrumentos que utilizan este principio se denomina termocupla. En muchos automóviles se indica en el tablero la temperatura exterior utilizando como sensor principal una termocupla.
+            p.mb-lg-0.mb-3 Utiliza los efectos de calentamiento sobre un material. El más común de los instrumentos que utilizan este principio se denomina #[strong termocupla]. En muchos automóviles se indica en el tablero la temperatura exterior utilizando como sensor principal una termocupla.
             p.mb-lg-0.mb-3.mt-3 El principio de funcionamiento es utilizar las propiedades que tienen dos alambres metálicos (cada uno de diferente material) unidos generalmente con soldadura que generan un voltaje a la salida cuando están expuestos al ambiente o a diferentes temperaturas.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
@@ -79,10 +79,10 @@
                   | Conversores análogo digital.
                 li 
                   i.lista-ul__vineta
-                  | Pantalla o display electrónico.
+                  | Pantalla o #[i display] electrónico.
       .col-lg-5.col-12.mb-2
         .titulo-sexto.color-acento-contenido.mt-4
-          p.titulo.pb-0.mb-3 <b>Figura 2.</b> <i>Medidor energía digital</i> 
+          p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Medidor energía digital</i> 
         img(src='@/assets/curso/temas/tema1-05.png')         
 
       p.mt-5 Actualmente, la mayoría de los instrumentos utilizados comercialmente pertenecen a esta categoría, aunque aún podemos ver en muchos de los hogares medidores de energía eléctrica de tipo analógico.
