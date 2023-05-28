@@ -107,7 +107,7 @@
           .tarjeta.col-12.p-4.py-5(style="background:#ECE5F9")
             p.mb-0.text-center.mt-4
               strong Multímetro digital
-      p Los hay análogos y digitales, algunos de estos últimos con capacidad de medir valores eficaces de ondas alternas diferentes a la senoidal lo que se conoce como True RMS o valor eficaz verdadero. Los instrumentos análogos y los digitales No True RMS en alterna solo miden correctamente ondas senoidales, porque, según la teoría de circuitos, el valor RMS corresponde en ese caso al valor máximo dividido entre la raíz de dos.
+      p Los hay análogos y digitales, algunos de estos últimos con capacidad de medir valores eficaces de ondas alternas diferentes a la senoidal lo que se conoce como #[i True RMS] o valor eficaz verdadero. Los instrumentos análogos y los digitales #[i No True RMS] en alterna solo miden correctamente ondas senoidales, porque, según la teoría de circuitos, el valor RMS corresponde en ese caso al valor máximo dividido entre la raíz de dos.
 
     .row.justify-content-center.align-items-center.mb-4.animacion1.p-3
       div.d-flex.align-items-center.mb-4.mt-3.position-relative(style="z-index:1000 !important" data-aos="fade-right")    
