@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Determinación de especificaciones según requerimientos del producto electrónico',
+    componenteFormativo: 'Principios de medidas eléctricas',
     descripcionCurso:
       'Este componente se relaciona con la medición que hace parte de las actividades de la vida, en especial hoy donde es normal vestir dispositivos electrónicos que miden las pulsaciones y la distancia recorrida. También se hace imprescindible para controlar los procesos y obtener datos para la toma de decisiones; medir parámetros eléctricos permitirá adentrarse en el mundo de la medición. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
