@@ -133,7 +133,7 @@ export default {
         'Organismo Nacional de Acreditación de Colombia - ONAC. (2021). <em>Acreditación laboratorio de calibración y mediciones industriales</em> SENA.',
       tipo:
         'Acreditación laboratorio de Calibración y Mediciones Industriales SENA',
-      descarga: 'https://onac.org.co/certificados/16-LAC-016.pdf',
+      link: 'https://onac.org.co/certificados/16-LAC-016.pdf',
     },
   ],
   glosario: [
@@ -174,7 +174,8 @@ export default {
     {
       referencia:
         'Técnicas de control metrológico. (2021). <em>Certificado de calibración.</em>',
-      link: 'https://onac.org.co/certificados/16-LAC-016.pdf',
+      link:
+        'https://www.tcmetrologia.com/blog/interpretacion-y-modelo-de-certificado-de-calibracion/ ',
     },
     {
       referencia:
