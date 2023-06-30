@@ -8,12 +8,12 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .row.justify-content-center.align-items-center.py-0(data-aos="fade-left")
-      .col-12
+    .row.justify-content-center.align-items-center.py-0
+      .col-12(data-aos="fade-left")
         img.mb-lg-0.mb-3(src="@/assets/curso/introduccion/img01.png")
-      .col-lg-10.col-12.mt-5
+      .col-lg-12.col-12.mt-5(data-aos="fade-down")
         p.mb-lg-0.mb-5 Apreciado aprendiz, bienvenido a este momento de aprendizaje relacionado con los principios de las mediciones eléctricas. Para empezar, se sugiere observar el siguiente recurso de aprendizaje.
-    figure.mt-5
+    figure.mt-5(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
     .row.justify-content-center.align-items-center.py-0(data-aos="fade-left")

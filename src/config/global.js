@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Principios de medidas eléctricas',
     descripcionCurso:
-      'Este componente se relaciona con la medición que hace parte de las actividades de la vida, en especial hoy donde es normal vestir dispositivos electrónicos que miden las pulsaciones y la distancia recorrida. También se hace imprescindible para controlar los procesos y obtener datos para la toma de decisiones; medir parámetros eléctricos permitirá adentrarse en el mundo de la medición. ',
+      'Este componente se relaciona con la medición que hace parte de las actividades de la vida, en especial hoy donde es normal usar dispositivos electrónicos que miden las pulsaciones y la distancia recorrida. También se hace imprescindible para controlar los procesos y obtener datos para la toma de decisiones; medir parámetros eléctricos permitirá adentrarse en el mundo de la medición.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -42,7 +42,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Clase de precisión, burden y error',
+            titulo: 'Clase de precisión, <i>burden</i> y error',
             hash: 't_1_2',
           },
           {
