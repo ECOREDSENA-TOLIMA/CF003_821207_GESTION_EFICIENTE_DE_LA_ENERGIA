@@ -150,7 +150,7 @@ export default {
     {
       termino: 'CT',
       significado:
-        'Transformador de corriente (siglas en inglés de <em>Current Transformer</em>)',
+        'Transformador de corriente (siglas en inglés de <em>Current Transformer</em>).',
     },
     {
       termino: 'ONAC',

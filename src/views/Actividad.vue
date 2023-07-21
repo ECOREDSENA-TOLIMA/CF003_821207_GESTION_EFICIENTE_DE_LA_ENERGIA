@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Las medidas eléctricas, ¿Qué son, y para qué sirven?
-        p.mb-4 #[b Objetivo] Identificar las principales mediciones electrícas y los equipos que le regulan, de acuerdo con sus componentes electríco.
+        p.mb-4 #[b Objetivo] Identificar las principales mediciones eléctricas y los equipos que le regulan, de acuerdo con sus componentes eléctricos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
